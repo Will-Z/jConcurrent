@@ -7,15 +7,15 @@ package thinkInJava.generic.twelve.one;
 public class BasicHolder<T> {
     T element;
 
-    void set(T element) {
+    public void set(T element) {
         this.element = element;
     }
 
-    T get() {
+    public T get() {
         return element;
     }
 
-    void f() {
+    public void f() {
         System.out.println(element.getClass().getSimpleName());
     }
 }
