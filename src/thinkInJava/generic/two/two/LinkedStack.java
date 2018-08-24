@@ -49,6 +49,7 @@ public class LinkedStack<T> {
         String s;
         while((s = lss.pop()) != null) {
             System.out.println(s);
+
         }
     }
 }
