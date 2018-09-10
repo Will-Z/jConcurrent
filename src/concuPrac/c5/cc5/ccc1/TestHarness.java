@@ -4,6 +4,8 @@ import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
 /**
+ * 在计时测试中使用 CountDownLatch来启动和停止线程
+ *
  * @author Will
  * @date 2018/9/10.
  */
