@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author Will
  * @date 2018/10/10.
  */
-public class ConditionUserCase {
+public class ConditionUseCase {
     Lock lock = new ReentrantLock();
     Condition condition = lock.newCondition();
 
