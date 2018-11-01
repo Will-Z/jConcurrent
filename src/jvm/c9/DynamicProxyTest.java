@@ -38,5 +38,6 @@ public class DynamicProxyTest {
         hello.sayHello();
 
         System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
+
     }
 }
