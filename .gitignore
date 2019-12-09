@@ -2,3 +2,5 @@
 target
 out
 .iml
+jConcurrent.iml
+*.log
